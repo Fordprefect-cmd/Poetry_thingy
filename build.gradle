@@ -1,9 +1,15 @@
 plugins {
     id 'java'
+    id 'application'
 }
 
 group 'It.fordprefect'
 version '1.0-SNAPSHOT'
+application {
+    mainClassName "it.fordprefect.Main"
+}
+
+
 
 repositories {
     mavenCentral()
